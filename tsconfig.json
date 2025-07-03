@@ -5,7 +5,16 @@
     "module": "CommonJS",
     "strict": true,
     "esModuleInterop": true,
-    "outDir": "./dist"
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "outDir": "./dist",
+    "types": ["node"],
+    "typeRoots": ["./node_modules/@types"]
   },
-  "include": ["./src", "./index.ts"]
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules", "dist"]
 }

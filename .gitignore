@@ -1,4 +1,11 @@
 !./output/.gitkeep
 !./markdown/.gitkeep
 *.md
+.output
+.node_modules
+.dist
+.markdown
+.png
+.imgs/
+
 !./README.md

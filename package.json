@@ -2,13 +2,20 @@
   "name": "convert-md-pdf",
   "version": "1.0.0",
   "scripts": {
-    "start": "ts-node src/index.ts"
+    "start": "ts-node src/index.ts",
+    "pdf:a2": "ts-node src/index.ts --format=A2",
+    "pdf:a3": "ts-node src/index.ts --format=A3",
+    "pdf:a4": "ts-node src/index.ts --format=A4",
+    "pdf:a5": "ts-node src/index.ts --format=A5",
+    "help": "ts-node src/index.ts --help",
+    "pnpm:init": "npx puppeteer browsers install chrome"
   },
   "dependencies": {
     "marked": "^10.0.0",
     "puppeteer": "^22.0.0"
   },
   "devDependencies": {
+    "@types/node": "^24.0.10",
     "ts-node": "^10.9.1",
     "typescript": "^5.1.3"
   }
