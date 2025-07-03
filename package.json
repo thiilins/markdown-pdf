@@ -1,0 +1,15 @@
+{
+  "name": "convert-md-pdf",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "marked": "^10.0.0",
+    "puppeteer": "^22.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}

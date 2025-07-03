@@ -1,0 +1,4 @@
+!./output/.gitkeep
+!./markdown/.gitkeep
+*.md
+!./README.md
